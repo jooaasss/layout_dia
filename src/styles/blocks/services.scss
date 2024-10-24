@@ -1,9 +1,9 @@
 .services {
-  @include element-grid;
+  @include page-grid;
 
   @include on-tablet {
     row-gap: 40px;
-    margin: 0 0 132px;
+    margin-bottom: 132px;
   }
 
   &__content {

@@ -57,7 +57,7 @@
     &:-webkit-autofill:focus {
       border-bottom-color: $c-blue;
       -webkit-text-fill-color: $c-white;
-      -webkit-box-shadow: 0 0 0px 1000px $c-dark-gray inset;
+      -webkit-box-shadow: 0 0 0 1000px $c-dark-gray inset;
       caret-color: $c-white;
     }
   }

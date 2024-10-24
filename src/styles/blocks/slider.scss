@@ -7,18 +7,19 @@
   overflow: hidden;
 
   @include on-tablet {
-    position: relative;
     grid-column: span 6;
+    left: 0;
+    bottom: -465px;
     width: 100vw;
     height: 390px;
     justify-self: center;
-    margin: 147px 0 0;
   }
 
   @include on-phone {
     grid-column: span 2;
+    left: 0;
+    bottom: -455px;
     object-fit: contain;
-    margin: 48px 0 0;
   }
 
   &__slides {

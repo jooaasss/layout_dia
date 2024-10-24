@@ -6,6 +6,20 @@
   border-top-right-radius: 30px;
   box-shadow: 0 -150px 0 10px $c-white;
 
+  &__content {
+    @include page-grid;
+
+    grid-column: span 12;
+
+    @include on-tablet {
+      grid-column: span 6;
+    }
+
+    @include on-phone {
+      grid-column: span 2;
+    }
+  }
+
   &__form-title {
     @include text-styler(Poppins, 600, 32px, 48px, $c-white);
 

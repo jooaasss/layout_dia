@@ -87,8 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.querySelector('.header').style.borderBottomLeftRadius =
           '200px';
         document.querySelector('.header').style.borderBottomRightRadius = '0';
-        document.querySelector('.header').style.backgroundColor =
-          cBlueBackground;
+        document.querySelector('.header').style.backgroundColor = cBlueBackground;
         document.querySelector('.top-bar__hire').classList.add('pink');
         document.querySelector('.header__button').style.borderRadius = '64px';
         document.querySelector('.header__button').style.backgroundColor = cPink;

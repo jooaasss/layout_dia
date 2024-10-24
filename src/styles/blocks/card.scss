@@ -11,10 +11,12 @@
 
   @include on-tablet {
     width: 264px;
+    flex: 0 0 calc(50% - 30px);
   }
 
   @include on-phone {
     width: 280px;
+    flex: unset;
   }
 
   &__number {

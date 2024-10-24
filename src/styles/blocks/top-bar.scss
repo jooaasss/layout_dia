@@ -1,5 +1,5 @@
 .top-bar {
-  @include element-grid;
+  @include page-grid;
 
   place-content: center;
   height: 120px;
@@ -36,6 +36,7 @@
     display: flex;
     align-items: center;
     grid-column: -2 / -1;
+    width: 67px;
 
     @include nav-link-styles;
 
@@ -73,6 +74,10 @@
     justify-content: space-between;
     align-items: center;
     gap: 32px;
+
+    @include on-phone {
+      justify-content: unset;
+    }
   }
 
   &__menu-link {

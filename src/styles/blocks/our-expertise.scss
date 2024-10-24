@@ -1,5 +1,5 @@
 .our-expertise {
-  @include element-grid;
+  @include page-grid;
   @include white-bg(30px, 100%);
 
   &__title {
